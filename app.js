@@ -26,3 +26,7 @@ li.textContent = taskText;
 li.addEventListener('click', function () {
     li.classList.toggle('completed');
   });
+
+const deleteBtn = document.createElement('button');
+  deleteBtn.textContent = 'Delete';
+  deleteBtn.classList.add('deleteBtn');
