@@ -18,3 +18,5 @@ function addTask() {
     alert('Please type a task first!');
     return;
   }
+
+const li = document.createElement('li');
