@@ -30,3 +30,10 @@ li.addEventListener('click', function () {
 const deleteBtn = document.createElement('button');
   deleteBtn.textContent = 'Delete';
   deleteBtn.classList.add('deleteBtn');
+
+deleteBtn.addEventListener('click', function (e) {
+    e.stopPropagation();
+    taskList.removeChild(li);
+    totalTasks--;
+    updateCount();
+  });
