@@ -65,3 +65,9 @@ ul#task-list li {
   font-size: 1rem;
   border: 1px solid #ddd;
 }
+
+ul#task-list li.completed {
+  text-decoration: line-through;
+  color: #aaa;
+  background-color: #e8e8e8;
+}
