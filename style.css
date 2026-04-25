@@ -32,3 +32,14 @@ h1 {
 #taskInput:focus {
   border-color: #4a90e2;
 }
+
+#submitBtn {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #4a90e2;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
