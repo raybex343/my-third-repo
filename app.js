@@ -42,3 +42,5 @@ deleteBtn.addEventListener('click', function (e) {
 
 
   taskList.appendChild(li);
+
+  taskInput.value = '';
