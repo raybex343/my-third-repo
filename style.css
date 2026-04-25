@@ -53,3 +53,15 @@ ul#task-list {
   padding: 0;
   margin-top: 20px;
 }
+
+ul#task-list li {
+  background-color: #f9f9f9;
+  padding: 12px 15px;
+  margin: 8px 0;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+}
