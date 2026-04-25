@@ -23,3 +23,6 @@ const li = document.createElement('li');
 
 li.textContent = taskText;
   
+li.addEventListener('click', function () {
+    li.classList.toggle('completed');
+  });
