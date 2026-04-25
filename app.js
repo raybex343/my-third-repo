@@ -13,3 +13,8 @@ function updateCount() {
 function addTask() {
 
   const taskText = taskInput.value;
+
+  if (taskText === '') {
+    alert('Please type a task first!');
+    return;
+  }
