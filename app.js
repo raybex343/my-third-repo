@@ -48,3 +48,4 @@ deleteBtn.addEventListener('click', function (e) {
   totalTasks++;
   updateCount();
 }
+submitBtn.addEventListener('click', addTask);
