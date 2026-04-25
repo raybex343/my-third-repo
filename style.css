@@ -101,3 +101,9 @@ ul#task-list li.completed {
 #clearAll:hover {
   background-color: #c0392b;
 }
+
+#taskCount {
+  font-size: 0.95rem;
+  color: #656;
+  margin-top: 10px;
+}
