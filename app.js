@@ -1,1 +1,2 @@
-console.log("To-Do App loaded!");
+const taskInput = document.getElementById('taskInput');
+const submitBtn = document.getElementById('submitBtn');
