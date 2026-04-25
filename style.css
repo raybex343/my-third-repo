@@ -97,3 +97,7 @@ ul#task-list li.completed {
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
+
+#clearAll:hover {
+  background-color: #c0392b;
+}
