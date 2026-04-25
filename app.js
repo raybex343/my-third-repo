@@ -5,3 +5,7 @@ const taskCount = document.getElementById('taskCount');
 const clearAll = document.getElementById('clearAll');
 
 let totalTasks = 0;
+
+function updateCount() {
+  taskCount.textContent = 'Total Tasks: ' + totalTasks;
+}
