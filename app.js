@@ -49,3 +49,15 @@ deleteBtn.addEventListener('click', function (e) {
   updateCount();
 }
 submitBtn.addEventListener('click', addTask);
+
+taskInput.addEventListener('keypress', function (e) {
+  if (e.key === 'Enter') {
+    addTask();
+  }
+});
+
+clearAll.addEventListener('click', function () {
+  taskList.innerHTML = '';
+  totalTasks = 0;
+  updateCount();
+});
