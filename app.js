@@ -11,3 +11,5 @@ function updateCount() {
 }
 
 function addTask() {
+
+  const taskText = taskInput.value;
