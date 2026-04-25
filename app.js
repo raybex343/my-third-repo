@@ -9,3 +9,5 @@ let totalTasks = 0;
 function updateCount() {
   taskCount.textContent = 'Total Tasks: ' + totalTasks;
 }
+
+function addTask() {
