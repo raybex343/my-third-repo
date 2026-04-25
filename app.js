@@ -37,3 +37,8 @@ deleteBtn.addEventListener('click', function (e) {
     totalTasks--;
     updateCount();
   });
+
+  li.appendChild(deleteBtn);
+
+
+  taskList.appendChild(li);
