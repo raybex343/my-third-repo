@@ -47,3 +47,9 @@ h1 {
 #submitBtn:hover {
   background-color: #357abd;
 }
+
+ul#task-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
