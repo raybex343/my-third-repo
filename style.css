@@ -107,3 +107,9 @@ ul#task-list li.completed {
   color: #656;
   margin-top: 10px;
 }
+
+footer {
+  margin-top: 40px;
+  font-size: 0.85rem;
+  color: #aaa;
+}
